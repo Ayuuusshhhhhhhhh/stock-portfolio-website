@@ -1,0 +1,150 @@
+.transaction-history {
+  width: 100%;
+}
+
+.no-transactions {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  border: 2px dashed #cbd5e0;
+  margin-top: 1rem;
+}
+
+.no-transactions p {
+  color: #718096;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.transactions-container {
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+}
+
+.transaction-item {
+  padding: 1rem;
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.2s;
+}
+
+.transaction-item:hover {
+  background-color: #f8fafc;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.transaction-main {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.transaction-type {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.transaction-type.buy {
+  background-color: #c6f6d5;
+  color: #22543d;
+}
+
+.transaction-type.sell {
+  background-color: #fed7d7;
+  color: #742a2a;
+}
+
+.transaction-main .symbol {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1a202c;
+}
+
+.transaction-amount .total {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.total.positive {
+  color: #48bb78;
+}
+
+.total.negative {
+  color: #f56565;
+}
+
+.transaction-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+  margin-left: 2rem;
+  font-size: 0.9rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-row .label {
+  color: #718096;
+  font-weight: 500;
+}
+
+.detail-row .value {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.transaction-footer {
+  padding: 1rem;
+  text-align: center;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.transaction-footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .transaction-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .transaction-amount {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .transaction-details {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    gap: 0.25rem;
+  }
+  
+  .detail-row {
+    padding: 0.25rem 0;
+  }
+}

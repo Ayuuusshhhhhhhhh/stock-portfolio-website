@@ -1,0 +1,90 @@
+.portfolio-summary {
+  width: 100%;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.summary-card {
+  padding: 1.5rem;
+  background: var(--gradient-primary);
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.summary-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.summary-card .value {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.summary-card .value.positive {
+  color: var(--success-color);
+}
+
+.summary-card .value.negative {
+  color: var(--danger-color);
+}
+
+.summary-card .value.neutral {
+  color: var(--text-muted);
+}
+
+.no-data {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1rem;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  border: 2px dashed var(--border-color-light);
+}
+
+.no-data p {
+  color: var(--text-secondary);
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .summary-card {
+    padding: 1rem;
+  }
+  
+  .summary-card .value {
+    font-size: 1.2rem;
+  }
+  
+  .summary-card h3 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
