@@ -1,3 +1,11 @@
+<img width="1919" height="717" alt="image" src="https://github.com/user-attachments/assets/83aa5968-e4e0-478d-acf2-65dd52f27fe2" />
+
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/b7216cf9-39bd-493e-8f93-96ce3fc04da0" />
+
+<img width="1916" height="926" alt="image" src="https://github.com/user-attachments/assets/a71ae3fe-c361-42f1-97a1-7482761b83fc" />
+
+<img width="1918" height="925" alt="image" src="https://github.com/user-attachments/assets/09b2f7b8-de8e-494c-a8b8-d8cf946fd761" />
+
 # Stock Portfolio Website
 
 A full-stack web application for managing and tracking stock portfolios with real-time data.
