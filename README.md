@@ -1,10 +1,10 @@
-<img width="1919" height="717" alt="image" src="https://github.com/user-attachments/assets/83aa5968-e4e0-478d-acf2-65dd52f27fe2" />
+<img width="1918" height="928" alt="g1" src="https://github.com/user-attachments/assets/47794356-b9e5-4d5b-8372-58b11987390d" />
 
-<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/b7216cf9-39bd-493e-8f93-96ce3fc04da0" />
+<img width="1918" height="927" alt="g2" src="https://github.com/user-attachments/assets/c466bf94-990a-453c-b9ab-4c3c360aeb52" />
 
-<img width="1916" height="926" alt="image" src="https://github.com/user-attachments/assets/a71ae3fe-c361-42f1-97a1-7482761b83fc" />
+<img width="1918" height="930" alt="g3" src="https://github.com/user-attachments/assets/87f9d42c-385c-4b3f-aee8-e141e78a948d" />
 
-<img width="1918" height="925" alt="image" src="https://github.com/user-attachments/assets/09b2f7b8-de8e-494c-a8b8-d8cf946fd761" />
+<img width="1918" height="925" alt="g4" src="https://github.com/user-attachments/assets/89d9ef81-51c8-4d33-90b7-d2c1a5a303c1" />
 
 # Stock Portfolio Website
 
